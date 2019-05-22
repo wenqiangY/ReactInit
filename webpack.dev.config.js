@@ -18,7 +18,7 @@ const devConfig = {
     module: {
         rules: [
             {
-                test: /\.css$/,
+                test: /\.(sa|sc|le|c)ss$/,
                 use: [
                     'style-loader',
                     'css-loader'

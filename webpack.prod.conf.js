@@ -21,7 +21,7 @@ const prodConfig = {
     module: {
         rules: [
             {
-                test: /\.(sa|sc|c)ss$/,
+                test: /\.(sa|sc|le|c)ss$/,
                 use: [{
                         loader: MiniCssExtractPlugin.loader,
                         options: {
